@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="TaxonoMe-Gaea-s-Glimpse:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/TaxonoMe_Gaea_s_Glimpse_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="TaxonoMe-Gaea-s-Glimpse/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="TaxonoMe-Gaea-s-Glimpse" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

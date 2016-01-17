@@ -12,7 +12,7 @@
         <li><a href="#news"> Forum </a></li>
         <li><a href="#contact"> Aware </a></li>
         <li><a href="#about"> About </a></li>
-        <li id="login"><a href="#about"> Login</a></li>
+        <li id="login"><a href="login.jsp"> Login</a></li>
     </ul>
 
 </head>

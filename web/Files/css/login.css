@@ -1,0 +1,23 @@
+input.login{
+    width: 400px;
+    height: 50px;
+    background: #2b303b;
+    border: none;
+    font-size: 10pt;
+    color: #63717f;
+    padding-left: 25px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#input-fields{
+    width:400px;
+    position:relative;
+    left:
+}
+
+form#login-fields{
+    text-align: center;
+    width: @screen-xs;
+}

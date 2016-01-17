@@ -29,7 +29,7 @@ ul {
     font-family: 'Open Sans', sans-serif;
     font-size: 24pt;
     height: 80px;
-    width: 100%;
+    width: 101%;
     float: left;
 }
 
@@ -75,5 +75,5 @@ a:hover{
 
  img#nav{
      position: relative;
-     top: -10px;
+     top: -1px;
  }

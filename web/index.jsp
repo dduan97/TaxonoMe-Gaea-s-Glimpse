@@ -6,21 +6,11 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="./Files/css/navigation.css">
 
-    <ul>
-        <li><a class="active" href="index.jsp">
-            <div id="home"><img id="nav" height = 70px src=./Files/Images/logo.png></div>
-        </a></li>
-        <div id="links">
-            <li><a href="#news"> Forum </a></li>
-            <li><a href="#contact"> Aware </a></li>
-            <li><a href="#about"> About </a></li>
-            <li id="login"><a href="register.jsp">Register</a></li>
-        </div>
-    </ul>
+
 
     <script type="text/javascript">
         var questionList = ["Size: ", "Animal type: ", "Habitat: ", "Location: "];
-        var choiceList = [["large (think kangaroo)", "medium (think turtle)", "small (think ladybug)"],["mammal", "bird", "reptile", "insect", "fish"],["riverbank", "pond", "beach"],["land", "shore", "sea"]];
+        var choiceList = [["large (think kangaroo)", "medium (think turtle)", "small (think ladybug)"],["mammal", "bird", "amphibian"],["riverbank", "pond", "beach"],["land", "shore", "sea"]];
         var buttonTemplate = "<button type='button' class='question' onclick='nextq()'>lorem</button>";
         function nextq(){
             if(questionList.length == 0 || choiceList.length == 0){
@@ -51,8 +41,19 @@
 
 </head>
 <body>
-
-<br><br><br><br><br><br><br>
+<ul>
+    <li><a class="active" href="index.jsp">
+        <div id="home"><img id="nav" height = 70px src=./Files/Images/logo.png></div>
+    </a></li>
+    <div id="links">
+        <li><a href="#news"> Forum </a></li>
+        <li><a href="#contact"> Aware </a></li>
+        <li><a href="#about"> About </a></li>
+        <li id="login"><a href="register.jsp">Register</a></li>
+        <li id="login"><a href="login.jsp">Login</a></li>
+    </div>
+</ul>
+<br><br><br><br><br><br><br><br><br><br><br>
 
     <div class="box">
         <div class="container-1">
@@ -64,7 +65,7 @@
         </div>
     </div>
 
-
+<br><br><br><br><br><br><br><br>
 <div class=Container id="panel">
     <div id="category">
         <h1>or answer a few questions to find similar species</h1><br>

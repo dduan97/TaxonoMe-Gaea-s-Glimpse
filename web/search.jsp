@@ -12,16 +12,36 @@
 <head>
     <title>Gaea's Glimpse</title>
     <link rel="stylesheet" type="text/css" href="./Files/css/navigation.css">
+    <link rel="stylesheet" type="text/css" href="./Files/css/Species.css">
+    <style>
+        body {
+            background-color: #B1DD7B;
+            background: url(/Files/Images/mainBack.png) no-repeat;
+            background-size: 100%;
+            top: 0;
+            left: 0;
+            overflow-x: hidden;
+            font-family: 'Open Sans', sans-serif;
+            margin: 0px;
+        }
+        a{
+            color: white;
+        }
+
+    </style>
 </head>
 <!-- top navigation bar -->
 <ul>
-    <li><a class="active" href="http://gaeasglimpse.mybluemix.net/#home">
-        <div id="home"><img src=./Files/Images/home.png></div>
+    <li><a class="active" href="index.jsp">
+        <div id="home"><img id="nav" height=70px src=./Files/Images/logo.png></div>
     </a></li>
-    <li><a href="#news"> Forum </a></li>
-    <li><a href="#contact"> Aware </a></li>
-    <li><a href="#about"> About </a></li>
-    <li id="login"><a href="#about"> Login</a></li>
+    <div id="links">
+        <li><a href="forum.jsp"> Forum </a></li>
+        <li><a href="Aware.jsp"> Aware </a></li>
+        <li><a href="AboutUs.jsp"> About </a></li>
+        <li id="login"><a href="register.jsp">Register</a></li>
+        <li id="login"><a href="login.jsp">Login</a></li>
+    </div>
 </ul>
 
 <body>
@@ -36,9 +56,10 @@
 
 %>
 
+<br><br><br><br><br>
 
 <div id="resText"
-     style='background-color: 333333; color: white; margin: 20px; margin-left: 40px;height: 80px; width: 1000px; border-radius: 8px 8px 8px 8px; float: left; word-wrap: break-word;'>
+     style='background-color: #333333; color: white; margin: 20px; margin-left: 40px;height: 80px; width: 1000px; border-radius: 8px 8px 8px 8px; float: left; word-wrap: break-word;'>
     <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Results</h1></div>
 
 
@@ -57,7 +78,7 @@
 
 <!-- Java Side Here -->
 <div id="panel1"
-     style="background-color: 333333; color: white; margin: 5px; margin-left: 40px;height: 150px; width: 1000px; border-radius: 8px 8px 8px 8px; float: left; word-wrap: break-word;">
+     style="background-color: #333333; color: white; margin: 5px; margin-left: 40px;height: 150px; width: 1000px; border-radius: 8px 8px 8px 8px; float: left; word-wrap: break-word;">
     <br>
     <div id="thumbnail1"
          style="background-color: black;        margin: -2px 10px 0px 10px;      height: 120px;      width: 150px; float: left;">

@@ -11,20 +11,37 @@
     <title>Gaea's Glimpse</title>
     <link rel="stylesheet" type="text/css" href="./Files/css/navigation.css">
     <link rel="stylesheet" type="text/css" href="./Files/css/Species.css">
+    <style>
+        body {
+            background-color: #B1DD7B;
+            background: url(/Files/Images/mainBack.png) no-repeat;
+            background-size: 100%;
+            top: 0;
+            left: 0;
+            overflow-x: hidden;
+            font-family: 'Open Sans', sans-serif;
+            margin: 0px;
+        }
+
+    </style>
 
     <!-- top navigation bar -->
     <ul>
-        <li><a class="active" href="http://gaeasglimpse.mybluemix.net/#home">
-            <div id="home"><img src=./Files/Images/home.png></div>
+        <li><a class="active" href="index.jsp">
+            <div id="home"><img id="nav" height=70px src=./Files/Images/logo.png></div>
         </a></li>
-        <li><a href="#news"> Forum </a></li>
-        <li><a href="#contact"> Aware </a></li>
-        <li><a href="#about"> About </a></li>
-        <li id="login"><a href="#about"> Login</a></li>
+        <div id="links">
+            <li><a href="forum.jsp"> Forum </a></li>
+            <li><a href="Aware.jsp"> Aware </a></li>
+            <li><a href="AboutUs.jsp"> About </a></li>
+            <li id="login"><a href="register.jsp">Register</a></li>
+            <li id="login"><a href="login.jsp">Login</a></li>
+        </div>
     </ul>
-
 </head>
 <body>
+<br><br><br><br><br>
+
 
 <div id="pan">
     <br>

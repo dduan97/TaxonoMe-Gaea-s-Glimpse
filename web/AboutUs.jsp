@@ -5,11 +5,10 @@
 
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,400italic,700italic' rel='stylesheet' type='text/css'>
-
+    <link rel="stylesheet" type="text/css" href="./Files/css/navigation.css">
 
     <style type = "text/css">
 
-        @import url("/Files/css/navigation.css");
 
         #panel{
 
@@ -54,6 +53,17 @@
             width:230px;
 
         }
+         body {
+             background-color: #B1DD7B;
+             background: url(/Files/Images/mainBack.png) no-repeat;
+             background-size: 100%;
+             top: 0;
+             left: 0;
+             overflow-x: hidden;
+             font-family: 'Open Sans', sans-serif;
+             margin: 0px;
+         }
+
     </style>
 
     <ul>
@@ -72,6 +82,7 @@
 
 
 <body>
+<br><br><br>
 <center>
     <div id="panel">
         <br><br>
@@ -79,11 +90,11 @@
 
         <div class="textPan"><hr><br>
 
-            <font size="3" style="text-align:left;" ><p>&nbsp;&nbsp;&nbsp;Gaea’s Glimpse is a <i>user</i> sourced catalog, encyclopedia, and forum that helps user identify and learn about species of <i>all</i> types (i.e. plants, animals, insects, fungi, bacteria, etc.).  Our site will be the ideal “playground” for users to learn, converse, and contribute information on various species all around the world.  This site reflects a new standard of identifying species and bringing awareness about the environment.  </p>
+            <font size="3" style="text-align:left;" ><p>&nbsp;&nbsp;&nbsp;Gaeas Glimpse is a <i>user</i> sourced catalog, encyclopedia, and forum that helps user identify and learn about species of <i>all</i> types (i.e. plants, animals, insects, fungi, bacteria, etc.).  Our site will be the ideal “playground” for users to learn, converse, and contribute information on various species all around the world.  This site reflects a new standard of identifying species and bringing awareness about the environment.  </p>
 
                 <p>&nbsp;&nbsp;&nbsp;In the past, scientist, enthusiast, and curious people once had to trek long and arduous journeys to gather for events or send mail that slowly travel to one another to bring together and learn new information about anything in regards to science.</p>
 
-                <p>&nbsp;&nbsp;&nbsp;Our goal with Gaea’s Glimpse is to provide a platform where a doctor in biology can share their data, a photographer can share their photos, and a curious individual can gather, converse, and discover something new with each other.</p>
+                <p>&nbsp;&nbsp;&nbsp;Our goal with Gaeas Glimpse is to provide a platform where a doctor in biology can share their data, a photographer can share their photos, and a curious individual can gather, converse, and discover something new with each other.</p>
 
                 <p>&nbsp;&nbsp;&nbsp;We want to show the beauty and worth of all the extraordinarily beautiful life that dwells on our planet.  We want to be the forefront of learning about new controversial issues about our environment, and provide information about what impact we have on this great planet.</p>
 

@@ -33,6 +33,16 @@
         <url-pattern>/process_register</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>form_register</servlet-name>
+        <servlet-class>DataBase.form_process</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>form_register</servlet-name>
+        <url-pattern>/formprocess</url-pattern>
+    </servlet-mapping>
+
     <error-page>
         <error-code>404</error-code>
         <location>/404.jsp</location>

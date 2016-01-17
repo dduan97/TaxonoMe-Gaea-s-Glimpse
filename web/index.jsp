@@ -18,7 +18,7 @@
                 form.setAttribute('method', 'POST');
                 form.setAttribute('action', 'search.jsp');
                 myvar = document.createElement('input');
-                myvar.setAttribute('name', '');
+                myvar.setAttribute('name', 'tags');
                 myvar.setAttribute('type', 'search');
                 myvar.setAttribute('value', 'wet');
                 form.appendChild(myvar);

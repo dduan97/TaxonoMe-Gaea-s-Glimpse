@@ -11,7 +11,6 @@
     <title>Login</title>
     <link rel="stylesheet" type="text/css" href="./Files/css/login.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="./Files/css/main.css">
 
 </head>
 <body>
@@ -22,7 +21,7 @@
         <form class="login" id="login-fields" action="process_register.jsp" method="post">
             <input class="login" name="username" type="text" id="username" placeholder="username"/><br>
             <input class="login" name="password" type="password" id="password" placeholder="password"/><br>
-            <select>
+            <select name="language">
                 <option value="english">English</option>
                 <option value="spanish">Spanish</option>
                 <option value="french">French</option>

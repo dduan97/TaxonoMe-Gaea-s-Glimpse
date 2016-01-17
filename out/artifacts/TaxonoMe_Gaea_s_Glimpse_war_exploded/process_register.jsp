@@ -11,12 +11,13 @@
 <%
     String registerUsername = request.getParameter("username");
     String registerPassword = request.getParameter("password");
+    String language = request.getParamater("language");
     try {
         Class.forName("com.mysql.jdbc.Driver");
         Connection con = DriverManager.getConnection("database address",
                 "username", "password");
         Statement st = con.createStatement();
-        int i = st.executeUpdate("insert into users(username, password) values ( + '" + registerUsername + "','" + registerPassword + "')");
+        int i = st.executeUpdate("insert into users(username, password, language) values ( + '" + registerUsername + "','" + registerPassword + "','" + language + "')");
     }
     catch(SQLException e){
         out.println("sql error!");

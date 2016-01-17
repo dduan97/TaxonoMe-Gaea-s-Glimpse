@@ -1,63 +1,79 @@
 
 /*body*/
-body
-{
+/*body*/
+/*{*/
 
-    background: url(/Files/Images/mainBack.png) no-repeat left top;
-    background-size: 100%;
-    background-repeat:no-repeat;
-    background-attachment: fixed;
-    top: 0;
-    left: 0;
-    overflow-x:hidden;
-    font-family: sans-serif;
-    background-color: #B1DD7B;
-}
+    /*background: url(/Files/Images/mainBack.png) no-repeat left top;*/
+    /*background-size: 100%;*/
+    /*background-repeat:no-repeat;*/
+    /*background-attachment: fixed;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*overflow-x:hidden;*/
+    /*font-family: sans-serif;*/
+    /*background-color: #B1DD7B;*/
+/*}*/
 
 
 /*overall navigation bar*/
 
 ul {
-    position: relative;
+    position: fixed;
     list-style-type: none;
-    margin: -10;
     padding: 0;
-    overflow-y: hidden;
-    background-color: #333;
+    /*overflow-y: hidden;*/
+    background-color: rgba(255,255,255,0.5);
+    margin: -10px;
     top: 0;
     left: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24pt;
+    height: 80px;
+    width: 100%;
+    float: left;
 }
 
 /*button positions*/
 li {
     float: left;
-    font-size: 26;
+    font-size: 18pt;
+}
+
+#links {
+    width: 100%;
+    position:relative;
+    top: 10px;
 }
 
 /*button links format*/
 li a {
     display: block;
-    color: white;
     text-align: left;
     padding: 14px 16px;
     text-decoration: none;
+    color: rgba(20,20,20,.9);
+
 }
 
 /*hover color*/
-a:hover:not(.active) {
-    background-color: #111;
+a:hover{
+    color: #555555;
 }
 
 /*login button*/
-#login{
+/*#login{*/
 
-    float: right;
+    /*float: right;*/
 
-}
+/*}*/
 
 /*color change navigation buttons when clicked*/
-.active {
-    background-color:#4CAF50;
-}
+/*.active {*/
+    /*background-color:#4CAF50;*/
+/*}*/
 /*end of navigation format*/
 
+ img#nav{
+     position: relative;
+     top: -10px;
+ }

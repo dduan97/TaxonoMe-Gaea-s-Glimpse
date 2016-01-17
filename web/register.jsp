@@ -11,7 +11,6 @@
     <title>Login</title>
     <link rel="stylesheet" type="text/css" href="./Files/css/login.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="./Files/css/main.css">
 
 </head>
 <body>

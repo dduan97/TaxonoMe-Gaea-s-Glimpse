@@ -2,11 +2,14 @@
 <html>
 <head>
     <title>Gaea's Glimpse</title>
-    <link rel="stylesheet" type="text/css" href="./Files/css/Style.css">
+
+    <link rel="stylesheet" type="text/css" href="./Files/css/navigation.css">
+    <link rel="stylesheet" type="text/css" href="./Files/css/index.css">
 
 
+    <!-- top navigation bar -->
     <ul>
-        <li><a class="active" href="#home">
+        <li><a class="active" href="http://gaeasglimpse.mybluemix.net/#home">
             <div id="home"><img src=./Files/Images/home.png></div>
         </a></li>
         <li><a href="#news"> Forum </a></li>
@@ -18,16 +21,28 @@
 </head>
 <body>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<!-- search bar -->
+<br><br><br><br><br><br><br><br><br><br>
 <center>
     <div class="box">
         <div class="container-1">
             <span class="icon"><i class="fa fa-search"></i></span>
-            <input type="search" id="search" placeholder="Search..."/>
-            <input id="submit" type="submit" value="Search">
+            <form action="search.jsp" method="post">
+                <input type="search" id="search" placeholder="Search..." name="tags"/>
+                <input id="submit" type="submit" value="Search">
+            </form>
         </div>
     </div>
 
+    <br><br><br><br><br><br>
 
+
+    <!-- bottom selection panel -->
+    <div class=Container id="panel">
+        Search Category GUI goes here
+        <div id="d1"></div>
+    </div>
+
+</center>
 </body>
 </html>

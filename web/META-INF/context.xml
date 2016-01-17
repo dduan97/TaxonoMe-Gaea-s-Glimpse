@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <!-- Specify a JDBC datasource -->
+    <Resource name="jdbc/gaeasglimpseDB" auth="Container"
+              type="javax.sql.DataSource" username="bc27ca4525220c" password="0838aa86"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://us-cdbr-iron-east-03.cleardb.net/ad_f8096d0929f41b2"
+              maxActive="10" maxIdle="4" />
+
+</Context>

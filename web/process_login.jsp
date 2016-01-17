@@ -14,7 +14,7 @@
         Connection con = DriverManager.getConnection("database address", "username", "password");
         Statement st = con.createStatement();
         ResultSet rs;
-        rs = st.executeQuery("select * from members where uname='" + username + "' and pass='" + password + "'");
+        rs = st.executeQuery("select * from users where username='" + username + "' and password='" + password + "'");
         if (rs.next()) {
             session.setAttribute("username", username);
             //out.println("welcome " + userid);

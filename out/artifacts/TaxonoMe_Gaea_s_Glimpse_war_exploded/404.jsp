@@ -18,16 +18,9 @@
 </head>
 <body>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<center>
-    <div class="box">
-        <div class="container-1">
-            <span class="icon"><i class="fa fa-search"></i></span>
-            <input type="search" id="search" placeholder="Search..."/>
-            <input id="submit" type="submit" value="Search">
-        </div>
+    <div id="error" style="align-self: center; height: 300px;background-color: white;text-align: center">
+        <h1>404</h1>
+        <p>Look like your broke something there</p>
     </div>
-
-</center>
 </body>
 </html>

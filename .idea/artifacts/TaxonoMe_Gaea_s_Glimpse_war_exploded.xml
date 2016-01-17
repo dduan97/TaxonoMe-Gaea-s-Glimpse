@@ -9,6 +9,9 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="mysql-connector-java-5.1.38" />
+          <element id="library" level="project" name="json-20151123" />
+          <element id="library" level="project" name="java-sdk-2.6.0-jar-with-dependencies" />
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
         </element>
       </element>
     </root>

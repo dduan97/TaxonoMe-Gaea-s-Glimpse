@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="java-sdk-2.6.0-jar-with-dependencies">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/java-sdk-2.6.0-jar-with-dependencies.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

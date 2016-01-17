@@ -25,6 +25,17 @@
 </ul>
 
 <body>
+<%@ page import="com.ibm.watson.developer_cloud.language_translation.v2.LanguageTranslation" %>
+<%@ page import="com.ibm.watson.developer_cloud.language_translation.v2.model.TranslationResult" %>
+<%@ page import="org.json.JSONObject" %>
+<%@ page import="DataBase.Translation" %>
+
+<%
+    LanguageTranslation service = new LanguageTranslation();
+    service.setUsernameAndPassword("755b089d-f73e-43cd-8967-f270e47efd3f", "Cy4loOtExkWM");
+
+%>
+
 
 <div id="resText"
      style='background-color: 333333; color: white; margin: 20px; margin-left: 40px;height: 80px; width: 1000px; border-radius: 8px 8px 8px 8px; float: left; word-wrap: break-word;'>
@@ -32,8 +43,15 @@
 
 
 <%
+    String lan = null;
+    try {
+        lan = session.getAttribute("lan").toString();
+    } catch (Exception E) {
+        if (lan == null)
+            lan = "en";
+    }
     ArrayList<Species> species = SeachQuery.getSearch(request.getParameter("tags"));
-    for (int i = 0; i < species.size(); i++) {
+    for (Species specy : species) {
 
 %>
 
@@ -43,10 +61,11 @@
     <br>
     <div id="thumbnail1"
          style="background-color: black;        margin: -2px 10px 0px 10px;      height: 120px;      width: 150px; float: left;">
-        <img src="<%=species.get(i).getPicture()[0]%>" style="height: 120px; width:150px;" href="www.google.com"></div>
-    <div id="thumbText1" style="font-size: 16px"><a href="#"><%=species.get(i).getName()%>
+        <img src="<%=specy.getPicture()[0]%>" style="height: 120px; width:150px;" href="www.google.com"></div>
+    <div id="thumbText1" style="font-size: 16px"><a
+            href="/speciesPage.jsp?<%=specy.getName()%>"><%=Translation.getTranslation(specy.getName(), lan)%>
     </a> <br><br>
-        <%=species.get(i).getDescription()%>
+        <%=Translation.getTranslation(specy.getDescription(), lan)%>
     </div>
 </div>
 

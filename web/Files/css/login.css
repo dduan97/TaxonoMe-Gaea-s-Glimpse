@@ -1,0 +1,62 @@
+input.login{
+    width: 400px;
+    height: 50px;
+    background: #2b303b;
+    border: none;
+    font-size: 10pt;
+    color: #93A1Af;
+    padding-left: 25px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+form#login-fields{
+    text-align: center;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 100px;
+    background: url(/Files/Images/login_background.jpg) no-repeat left top;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 64pt;
+    font-weight: 300;
+}
+
+#submit{
+    background-color: #2b303b;
+    /*background-image: linear-gradient(#95d788, #6cbb6b);*/
+    border-radius: 5px 5px 5px 5px;
+    border-width: 2px;
+    border-style: none;
+    /*border-color: #7eba7c #578e57 #447d43;*/
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3),
+    0 1px 0 rgba(255, 255, 255, 0.3) inset;
+    height: 48px;
+    margin: 0 0 0 10px;
+    padding: -10;
+    width: 90px;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: 700;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+select{
+    width: 150px;
+    height: 30px;
+    margin: 10px;
+    margin-bottom: 20px;
+    background: #2b303b;
+    color: #93A1Af;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+}

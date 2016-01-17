@@ -11,8 +11,34 @@
         <res-auth>Container</res-auth>
     </resource-ref>
 
+
+    <servlet>
+        <servlet-name>process_login</servlet-name>
+        <servlet-class>DataBase.process_login</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>process_login</servlet-name>
+        <url-pattern>/login_process</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>process_register</servlet-name>
+        <servlet-class>DataBase.process_register</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>process_register</servlet-name>
+        <url-pattern>/process_register</url-pattern>
+    </servlet-mapping>
+
     <error-page>
         <error-code>404</error-code>
+        <location>/404.jsp</location>
+    </error-page>
+    <error-page>
+        <error-code>500</error-code>
         <location>/404.jsp</location>
     </error-page>
 </web-app>
